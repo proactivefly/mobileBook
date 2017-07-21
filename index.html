@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>book</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/app.css">
+</head>
+<body>
+<!-- 页面内容 -->
+	<div class="container" id="root">
+		<div>
+			<div class="mask" id='mask'></div>
+		</div>
+		<div id="top" style='display:none'>
+			<span class='back'></span>
+			<h2>返回书架</h2>
+		</div>
+		<div id="header"></div>
+		<div id="mainContent" class='mainContent'>
+			<h4>我是个标题</h4>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni natus consequuntur minima earum nulla beatae accusantium deserunt fuga voluptates, nam ullam dicta ipsam aliquam commodi aspernatur totam neque quasi, iusto.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni natus consequuntur minima earum nulla beatae accusantium deserunt fuga voluptates, nam ullam dicta ipsam aliquam commodi aspernatur totam neque quasi, iusto.
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni natus consequuntur minima earum nulla beatae accusantium deserunt fuga voluptates, nam ullam dicta ipsam aliquam commodi aspernatur totam neque quasi, iusto.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</div>
+		<div class="btn-group">
+			<ul class='u-tab'>
+				<li id='prev-btn'>上一章</li>
+				<li id='next-btn'>下一章</li>
+			</ul>
+		</div>
+		<div class="footer" style='display:none'>
+			<div class='item' id='menu'>
+				<p class='menu'></p>
+				<h3>目录</h3>
+			</div>
+			<div class='item' id='fontsize'>
+				<p class='fontsize'></p>
+				<h3>字体</h3>
+			</div>
+			<div class='item' id='light-switch'>
+				<p class='night'></p>
+				<h3>夜间</h3>
+			</div>
+		</div>
+		<div class="set-panel" style='display:none'>
+			<div class="font-set">
+				<span class='font-item'>字号</span>
+				<div class="btnContainer font-item">
+					<div class='lage'>大</div>
+					<div class='small'>小</div>
+				</div>
+			</div>
+			<div class="bg-set">
+				<span class='title'>背景</span>
+				<div class='bg-container'>
+					<span class='b1 item'></span>
+					<span class='b2 item'></span>
+					<span class='b3 item'></span>
+					<span class='b4 item'></span>
+					<span class='b5 item'></span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src='lib/zepto.min.js'></script>
+	<script>
+		window.jQuery=$;
+	</script>
+	<!-- base64解码 -->
+	<script src='js/jquery.base64.js'></script>
+	<!-- 跨域请求 -->
+	<script src='js/jquery.jsonp.js'></script>
+	<script src='js/app.js'></script>
+</body>
+</html>
